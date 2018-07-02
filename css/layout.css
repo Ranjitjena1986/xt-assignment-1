@@ -1,0 +1,24 @@
+header{
+    display: flex;
+}
+
+.image-content{
+    height:55vh !important; 
+    overflow: hidden
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+footer{
+    font-size: 13px;
+    background: #1b293a;
+    padding: 12px 0;
+    height: 36px;
+    line-height: 26px;
+    color: rgb(230, 220, 220);
+    margin-top: 5px;
+}
+

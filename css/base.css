@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Regular'), 
+         local('Roboto-Regular'), 
+         url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) 
+         format('woff');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), 
+         local('Roboto-Bold'), 
+         url(http://themes.googleusercontent.com/static/fonts/roboto/v11/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff) 
+         format('woff');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Italic'), 
+         local('Roboto-Italic'), 
+         url(http://themes.googleusercontent.com/static/fonts/roboto/v11/1pO9eUAp8pSF8VnRTP3xnvesZW2xOQ-xsNqO47m55DA.woff) 
+         format('woff');
+  }
+
+  body{
+    margin: 0;
+    font-family: 'Roboto';
+  } 
+
+  .wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }  
+
+  .columns{
+    display: flex;
+    flex:1;
+  }
+
+  .main{
+    flex: 1;
+    order: 2;
+  }
+
+  .sidebar-first{
+    order: 1;
+  }
+
+  .sidebar-second{ 
+    order: 3;
+  }  
+
+
+  .header-title{
+    width: 40%;
+    margin-left: 5vh;
+ }
+
+/*Strip the ul of padding and list styling*/
+nav ul {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+	list-style-type:none;	
+    position: absolute;
+    top:35px;
+}
+
+/*Create a horizontal list with spacing*/
+nav ul li {
+	display:inline-block;
+	float: left;
+    margin-right: 1px;
+    width: 100px;
+}
+
+/*Style for menu links*/
+nav ul li a {
+	display:block;
+	text-align: center;
+    text-decoration: none;
+    color: #3e4246;
+}
+
+/*Hover state for top level links*/
+nav ul li:hover a {
+	color:#15518a;
+}
+
+/*Style for dropdown links*/
+nav ul li:hover ul a {
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Hide dropdown links until they are needed*/
+nav ul li ul {
+	display: none;
+}
+
+/*Display the dropdown on hover*/
+nav ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+.image-responsive{
+    width: 100%;
+    height: auto;
+}
+
+.marLeft10px{
+    margin-left: 10px;
+}
+
+.readmore{
+    float: right;
+    cursor: pointer;
+    color: #1a3957;
+    font-size: 14px;
+    text-decoration: none;
+}
+.readmore:hover{   
+    color: #06488a;
+}
+
+.container{
+    display: flex;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.notice{
+   flex: 2; 
+   float: left;
+   margin-top: 3px;
+}
+
+.social-media {
+   flex: 1; 
+   float: left;
+}
+
+.social-media a {
+   width: 34px;
+   height: 34px;
+   color: #FFF;
+   opacity: .4;
+   font-size: 12px;
+   display: inline-block;
+   margin-left: 15px;
+   border-radius: 40px;
+   text-align: center;
+   border: 2px solid;
+}
+
+.social-media a i {
+   position: relative;
+   top: 3px;
+}
+
+.clearfix{
+    clear: both;
+}
