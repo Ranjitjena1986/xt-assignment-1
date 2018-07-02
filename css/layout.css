@@ -4,7 +4,8 @@ header{
 
 .image-content{
     height:55vh !important; 
-    overflow: hidden
+    overflow: hidden;
+    position: relative;
 }
 
 .content {
@@ -21,4 +22,22 @@ footer{
     color: rgb(230, 220, 220);
     margin-top: 5px;
 }
+
+
+.slider-caption{
+    position: absolute;
+    font-size: 1.75rem;
+    color: #5a5052e0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.15);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 auto;
+    left: 25px;
+    right: 0;
+    z-index: 1039;
+    top: 50%;
+}
+
+
 
