@@ -26,11 +26,10 @@ footer{
     margin-top: 5px;
 }
 
-
 .slider-caption{
     position: absolute;
     font-size: 1.75rem;
-    color: #5a5052e0;
+    color: rgb(104, 100, 100);
     text-shadow: 1px 1px 1px rgba(0,0,0,.15);
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -40,6 +39,11 @@ footer{
     right: 0;
     z-index: 1039;
     top: 30%;
+}
+
+p{
+    font-size: 14px;
+    color:dimgrey;
 }
 
 
