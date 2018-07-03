@@ -1,16 +1,19 @@
-header{
+.header{
     display: flex;
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content {
+    display: flex;    
 }
 
 .image-content{
     height:55vh !important; 
     overflow: hidden;
-    position: relative;
-}
-
-.content {
-    display: flex;
-    flex: 1;
 }
 
 footer{
@@ -36,8 +39,9 @@ footer{
     left: 25px;
     right: 0;
     z-index: 1039;
-    top: 50%;
+    top: 30%;
 }
+
 
 
 

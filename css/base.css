@@ -75,7 +75,6 @@ nav ul {
 /*Create a horizontal list with spacing*/
 nav ul li {
 	display:inline-block;
-	float: left;
     margin-right: 1px;
     width: 100px;
 }
@@ -91,24 +90,6 @@ nav ul li a {
 /*Hover state for top level links*/
 nav ul li:hover a {
 	color:#15518a;
-}
-
-/*Style for dropdown links*/
-nav ul li:hover ul a {
-	background: #f3f3f3;
-	color: #2f3036;
-	height: 40px;
-	line-height: 40px;
-}
-
-/*Hide dropdown links until they are needed*/
-nav ul li ul {
-	display: none;
-}
-
-/*Display the dropdown on hover*/
-nav ul li a:hover + .hidden, .hidden:hover {
-	display: block;
 }
 
 .image-responsive{
@@ -168,4 +149,7 @@ nav ul li a:hover + .hidden, .hidden:hover {
 
 .clearfix{
     clear: both;
+}
+h3{
+    line-height: 1.5;
 }

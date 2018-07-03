@@ -15,5 +15,24 @@
 
     .social-media{
         margin-top: 10px !important;
+    }  
+
+    .row{
+        -webkit-flex-direction: column; 
+        flex-direction: column; 
+    }
+    
+    .column{
+        flex: 100%;
+    }
+    .image-content {
+        height: 32vh !important;
+    }
+    .slider-caption{
+        top:25%;
+    }
+    
+    .mar-top-13vh {
+        margin-top: 13vh;
     }    
 }
