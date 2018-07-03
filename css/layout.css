@@ -1,6 +1,5 @@
 .header{
     display: flex;
-    overflow: hidden;
     background-color: #fff;
     position: fixed;
     top: 0;
