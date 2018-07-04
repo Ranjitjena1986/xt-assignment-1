@@ -10,7 +10,7 @@
     }
 
     footer{        
-        height: 75px !important;
+        height: 19vh !important;
     }
 
     .social-media{
@@ -30,6 +30,7 @@
     }
     .slider-caption{
         top:25%;
+        font-size: 1rem;
     }
     
     .mar-top-13vh {
